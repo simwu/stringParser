@@ -1,9 +1,9 @@
-#include <iostream>		// For cin and cout
+#include <iostream>
 #include <string>
 #include "View.h"
 #include <vector>
 
-using namespace std;	// For cin, cout, and string
+using namespace std;
 
 View::View(Controller &controller) {
 
@@ -14,19 +14,12 @@ View::~View() {
 
 }
 
-// displayMainMenu is a member of the View class
 void View::displayMainMenu() {
-	
-// char == character
-// = assigns to whatever value you put in
+
 	char menuOption = ' ';
-	
-	// "X' == a string, 'x' == a string
-	// while loop controlled with a flag
+
 	while (menuOption != 'X') {
 
-		// << pointing/sending what to do
-		// endl leaves a line at the end
 		cout << "String Parser Menu" << endl << endl;
 
 		cout << "1. Letter Count" << endl;

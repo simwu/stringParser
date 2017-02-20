@@ -19,12 +19,6 @@ void Controller::letterCounts(string text, int counts[]) {
 
 int Controller::wordCount(string text) {
 
-	// int count = stringparser.wordCount(text);
-
-	// return count;
-
-	// Two seperate statements ^ or all in one v
-
 	return stringparser.wordCount(text);
 }
 
